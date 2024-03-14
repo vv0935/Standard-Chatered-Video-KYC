@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+  }
+  
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .top-menu button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .main-content {
+    display: flex;
+  }
+.notification {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .notification-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .email-link {
+    margin-top: 10px;
+  }
+  
+  .bottom-text {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .bottom-text p {
+    margin: 5px 0;
+  }
+  
+  .bottom-text a {
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .bottom-text a:hover {
+    text-decoration: underline;
+  }
+  

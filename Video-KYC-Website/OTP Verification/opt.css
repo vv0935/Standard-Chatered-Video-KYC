@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://av.sc.com/in/content/images/Smart-Card-Banner-400-x-400-v1.jpg');
+    background-size: cover;
+    color: white;
+}
+
+#header {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#header img {
+    margin-right: 20px;
+}
+
+#header .country-name {
+    color: #38D200;
+}
+
+#background-image {
+    background-color: rgba(0, 0, 0, 0.7); /* Black background with opacity */
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    text-align: center; /* Center align content */
+}
+
+.otp-text {
+    font-size: 28px; /* Bigger font size */
+    margin-bottom: 20px;
+    color: white; /* Text color white */
+}
+
+#otp-container {
+    display: inline-block;
+}
+
+.otp-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.enter-otp {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.otp-input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#resend-btn {
+    background-color: #0F6AF3; /* Shade 0F6AF3 blue */
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#submit-btn {
+    background-color: #0B97B0; /* Shade 0B97B0 blue */
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+}

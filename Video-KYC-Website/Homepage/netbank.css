@@ -1,0 +1,102 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+  }
+  
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .top-menu button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .main-content {
+    display: flex;
+  }
+  
+  .left-panel {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-panel {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .rectangle {
+    width: 93px;
+    height: 53px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .green-rect {
+    background-color: #38D200;
+    color: #ffffff;
+  }
+  
+  .white-rect {
+    background-color: #ffffff;
+  }
+  
+  .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .savings-details {
+    width: 100%;
+  }
+  
+  .savings-info p {
+    margin: 5px 0;
+  }
+  
+  .savings-info h1 {
+    font-size: 36px;
+    margin: 5px 0;
+  }
+  
+  .bill {
+    margin: 0 10px 20px 10px;
+    text-align: center;
+  }
+  
+  .bill img {
+    width: 150px;
+    height: auto;
+  }
+  

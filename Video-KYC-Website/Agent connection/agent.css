@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+    padding: 10px;
+  }
+  
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  .top-menu button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .main-content {
+    display: flex;
+  }
+.agent-connect {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .connect-box {
+    background-color: #38D200;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .connect-text {
+    margin: 0;
+  }
+  
+  .waiting-text {
+    margin-top: 10px;
+  }
+  
+  .schedule-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #38D200;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
